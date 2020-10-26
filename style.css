@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: burlywood;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.3;
+}
+
+.product{
+    padding: 16px;
+    background-color: white;
+    width: 100%;
+}
+
+.product__image-wrapper{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+.product__image{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.product__title{
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+}
+
+.product__header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.product_price-before{
+    display: flex;
+font-family: Inter;
+font-size: 25px;
+line-height: 15px;
+text-decoration-line: line-through;
+
+}
+.product_price-after{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+}
+
+.product__button-add-card{
+    display: flex;
+    justify-content: space-between;
+   
+}
